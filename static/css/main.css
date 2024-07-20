@@ -1,0 +1,92 @@
+/* General Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Container for the main content */
+.content {
+    margin: 20px auto;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+/* Header styling */
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+td {
+    background-color: #fff;
+}
+
+/* Link styling */
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Form styling */
+.form {
+    margin-top: 20px;
+}
+
+/* Specific section for Registered Projects */
+#registered-projects {
+    margin-top: 20px;
+}
+
+#registered-projects table {
+    width: 100%;
+    border: 1px solid #aaa;
+}
+
+#registered-projects th, #registered-projects td {
+    text-align: center;
+    padding: 10px;
+}
+
+/* Detail page styling */
+.detail-page {
+    margin-top: 20px;
+}
+
+.detail-page div {
+    margin-bottom: 15px;
+}
+
+.detail-page label {
+    font-weight: bold;
+}
+
+.detail-page p {
+    margin: 0;
+}
